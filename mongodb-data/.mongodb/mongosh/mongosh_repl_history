@@ -1,0 +1,10 @@
+show collections
+use blog-personnel
+show dbs
+exit
+show collections
+db.createCollection("posts")
+show dbs
+db.test.insertOne({message: "Base cree"})
+use blog-personnel
+show dbs
